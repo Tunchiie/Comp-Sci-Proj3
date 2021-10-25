@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E6332852272615290084CF9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6332851272615290084CF9B /* main.cpp */; };
+		E633285A272618180084CF9B /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6332858272618180084CF9B /* Item.cpp */; };
+		E633285D27261D760084CF9B /* Sched.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E633285B27261D760084CF9B /* Sched.cpp */; };
+		E633286027261ED00084CF9B /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E633285E27261ED00084CF9B /* Manager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		E633284E272615290084CF9B /* Scheduler.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Scheduler.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6332851272615290084CF9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E6332858272618180084CF9B /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = SOURCE_ROOT; };
+		E6332859272618180084CF9B /* Item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = SOURCE_ROOT; };
+		E633285B27261D760084CF9B /* Sched.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sched.cpp; sourceTree = SOURCE_ROOT; };
+		E633285C27261D760084CF9B /* Sched.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sched.hpp; sourceTree = SOURCE_ROOT; };
+		E633285E27261ED00084CF9B /* Manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = SOURCE_ROOT; };
+		E633285F27261ED00084CF9B /* Manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Manager.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				E6332851272615290084CF9B /* main.cpp */,
+				E6332858272618180084CF9B /* Item.cpp */,
+				E633285B27261D760084CF9B /* Sched.cpp */,
+				E633285E27261ED00084CF9B /* Manager.cpp */,
+				E633285F27261ED00084CF9B /* Manager.hpp */,
+				E633285C27261D760084CF9B /* Sched.hpp */,
+				E6332859272618180084CF9B /* Item.hpp */,
 			);
 			path = Scheduler.cpp;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E633285D27261D760084CF9B /* Sched.cpp in Sources */,
+				E633285A272618180084CF9B /* Item.cpp in Sources */,
 				E6332852272615290084CF9B /* main.cpp in Sources */,
+				E633286027261ED00084CF9B /* Manager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
