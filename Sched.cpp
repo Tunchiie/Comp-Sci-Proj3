@@ -70,23 +70,42 @@ void Schedule::InsertSorted(Item* new_item){
         m_size++;
     }
     
-//    Item *item = m_head;
-//
-//    while (i < m_size){
-//
-//        item = item->GetNext();
-//
-//        while (i < m_size){
-//
-//          if (item->GetTime() < item->GetNext()->GetTime()){
-//
-//            Item *temp = item;
-//
-//            item = item->GetNext();
-//
-//          }
-//        }
-//      }
+ Item *item = m_head;
+
+  Item *next = m_head->GetNext();
+
+  while (i < m_size){
+
+    while ((j < (m_size - 1 - i)) && (item->GetNext() != nullptr)){
+
+      if (item->GetTime() > next->GetTime()){
+
+        Item *temp = item;
+
+        item = next;
+
+        next = next->GetNext();
+
+        item->SetNext(temp);
+
+      }
+
+      j++;
+
+    }
+
+    j = 0;
+
+    if (item->GetNext() != nullptr){
+      item = item->GetNext();
+    }
+
+    i++;
+
+
+
+  }
+
 
     
 }
