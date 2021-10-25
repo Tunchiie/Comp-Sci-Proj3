@@ -1,11 +1,8 @@
-#ifndef Manager_hpp
-#define Manager_hpp
+#ifndef MANAGER_H
+#define MANAGER_H
 
-//#ifndef MANAGER_H
-//#define MANAGER_H
-
-#include "Item.hpp"
-#include "Sched.hpp"
+#include "Item.h"
+#include "Sched.h"
 #include <fstream>
 #include <string>
 #include <iostream>
