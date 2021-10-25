@@ -1,8 +1,5 @@
-#ifndef Sched_hpp
-#define Sched_hpp
-
-//#ifndef SCHEDULE_H
-//#define SCHEDULE_H
+#ifndef SCHEDULE_H
+#define SCHEDULE_H
 
 #include <string>
 #include <iostream>
@@ -68,4 +65,4 @@ private:
     Item *m_tail; //End of the Schedule
     int m_size; //Total size of the Schedule
 };
-#endif /* Sched_hpp */
+#endif /* Schedule_h */
