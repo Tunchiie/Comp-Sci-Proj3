@@ -68,4 +68,4 @@ private:
   Item* m_next; //Pointer to next node in linked list
 };
 
-#endif /* Item_hpp */
+#endif /* Item_h */
