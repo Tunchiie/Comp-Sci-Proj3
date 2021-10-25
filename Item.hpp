@@ -1,8 +1,5 @@
-
-#ifndef Item_hpp
-#define Item_hpp
-//#ifndef ITEM_H
-//#define ITEM_H
+#ifndef ITEM_H
+#define ITEM_H
 #include <iostream>
 #include <string>
 using namespace std;
