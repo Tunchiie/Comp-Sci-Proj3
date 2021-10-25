@@ -1,4 +1,4 @@
-#include "Sched.h"
+#include "Schedule.h"
 #include <string>
 #include <iostream>
 #include <iomanip>
